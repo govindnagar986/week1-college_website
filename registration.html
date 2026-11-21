@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Student registration form for the SoIT RGPV website demonstration.">
+    <title>Registration | SoIT RGPV</title>
+</head>
+<body>
+
+    <header>
+        <h1>School of Information Technology (SoIT)</h1>
+        <p>Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal</p>
+    </header>
+
+    <button>
+        <a href="index.html">BACK</a>
+    </button>
+
+    <main>
+        <section>
+            <h2>Student Registration</h2>
+            <p>
+                Fill out the form below to provide your basic
+                student information.
+            </p>
+            <p><strong>Note:</strong> This is a demonstration form, not an official admission application.</p>
+        </section>
+
+        <section>
+            <h2>Registration Form</h2>
+
+            <form action="#" method="post">
+
+                <p>
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fullname" name="fullname" required>
+                </p>
+
+                <p>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="mobile">Mobile Number:</label><br>
+                    <input type="tel" id="mobile" name="mobile" required>
+                </p>
+
+                <p>
+                    <label for="dob">Date of Birth:</label><br>
+                    <input type="date" id="dob" name="dob" required>
+                </p>
+
+                <p>
+                    <label for="course">Select Course:</label><br>
+                    <select id="course" name="course" required>
+                        <option value="">-- Select a Course --</option>
+                        <option value="csbs">B.Tech CSBS</option>
+                        <option value="aiml">B.Tech CSE (AI & ML)</option>
+                        <option value="datascience">B.Tech CSE (Data Science)</option>
+                        <option value="mtech">M.Tech Data Science</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="address">Address:</label><br>
+                    <textarea id="address" name="address" rows="4" required></textarea>
+                </p>
+
+                <p>
+                    <input type="checkbox" id="declaration" name="declaration" required>
+                    <label for="declaration">
+                        I confirm that the information provided is correct.
+                    </label>
+                </p>
+
+                <button type="submit">Register</button>
+                <button type="reset">Reset Form</button>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 School of Information Technology, RGPV Bhopal.</p>
+    </footer>
+
+</body>
+</html>
